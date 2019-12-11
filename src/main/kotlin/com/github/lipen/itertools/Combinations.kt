@@ -28,7 +28,6 @@ fun <T> Iterable<T>.combinations(r: Int): Sequence<List<T>> = when {
     }
 }
 
-
 fun main() {
     val xs = (1..4).toList()
     val combo3of4 = xs.combinations(3).toList()

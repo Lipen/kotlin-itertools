@@ -20,7 +20,6 @@ fun <T> Collection<Iterable<T>>.cartesianProduct(): Sequence<List<T>> =
  */
 fun <T> Iterable<Iterable<T>>.cartesianProduct(): Sequence<List<T>> = toList().cartesianProduct()
 
-
 fun main() {
     val xs = listOf((1..4).toList(), "ABC".toList(), listOf("lol", "kek"))
     println("$xs.cartesianProduct():")

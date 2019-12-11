@@ -22,7 +22,6 @@ private fun Int.nthBit(n: Int): Int {
     return (this shr n) % 2
 }
 
-
 fun main() {
     val xs = (1..4).toList()
     println("$xs.powerset():")

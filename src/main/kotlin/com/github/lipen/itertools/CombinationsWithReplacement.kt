@@ -30,7 +30,6 @@ fun <T> Iterable<T>.combinationsWithReplacement(r: Int): Sequence<List<T>> = whe
     }
 }
 
-
 fun main() {
     val xs = (1..4).toList()
     val combo3of4 = xs.combinationsWithReplacement(3).toList()

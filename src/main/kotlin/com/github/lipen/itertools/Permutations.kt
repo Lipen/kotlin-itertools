@@ -44,7 +44,6 @@ private fun IntArray.swap(i: Int, j: Int) {
     this[j] = temp
 }
 
-
 fun main() {
     val xs = (1..4).toList()
     println("$xs.permutations():")
@@ -52,4 +51,3 @@ fun main() {
         println("    $perm\n")
     }
 }
-
