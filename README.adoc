@@ -1,0 +1,7 @@
+= Kotlin Itertools
+
+image:https://travis-ci.com/Lipen/kotlin-itertools.svg["Build Status", link="https://travis-ci.com/Lipen/kotlin-itertools"]
+image:https://jitpack.io/v/Lipen/kotlin-itertools.svg["JitPack", link="https://jitpack.io/p/Lipen/kotlin-itertools"]
+image:https://hitsofcode.com/github/Lipen/kotlin-itertools["Hits-of-Code", link="https://hitsofcode.com/view/github/Lipen/kotlin-itertools"]
+
+Itertools for Kotlin.
